@@ -1,0 +1,56 @@
+h1 {
+  font-family: 'Forum', serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: 0.07em;
+  margin: 0;
+  color: #fff;
+}
+h2 {
+  font-family: 'Forum', serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 0.96;
+  letter-spacing: 0.07em;
+  margin: 0;
+  color: #fff;
+}
+p {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.6;
+  letter-spacing: 0.07em;
+  margin: 0;
+  color: #fff;
+  text-align: center;
+}
+h3 {
+  margin: 0;
+  font-family: 'Forum', serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  line-height: 54px;
+  font-size: clamp(28px, calc(42px * var(--scale)), 42px);
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+body {
+  min-height: 100vh;
+  background: #fff; /* или любой фон страницы */
+}
+
+#app {
+  width: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
